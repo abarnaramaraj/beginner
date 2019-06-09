@@ -18,7 +18,7 @@ import java.io.*;
 		}
 		else
 		{
-			System.out.println("Invalid");
+			System.out.println("invalid");
 		}
 		
 	}
