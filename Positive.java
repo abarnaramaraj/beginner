@@ -5,14 +5,14 @@ import java.io.*;
 {
 	public static void main (String[] args) 
 	{
-		int n;
+		int m;
 		Scanner sc=new Scanner(System.in);
-		n=sc.nextInt();
-		if(n>0)
+		m=sc.nextInt();
+		if(m>0)
 		{
 			System.out.println("Positive");
 		}
-		else if(n<0)
+		else if(m<0)
 		{
 			System.out.println("Negative");
 		}
