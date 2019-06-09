@@ -9,7 +9,7 @@ return 0;
 int main()
 {
 int i,n;
-printf("enter the value");
+
 scanf("%d",&n);
 
 for(i=0;i<=0;i++)
