@@ -5,13 +5,13 @@ import java.io.*;
 {
 	public static void main (String[] args) 
 	{
-		Char n;
+		char ch;
 		
 		Scanner sc=new Scanner(System.in);
-		char n=sc.next().charAt(0);
+	        ch=sc.next().charAt(0);
 	
 
-		if((n>='a'&&n<='z')||(n>='A'&&n<='Z'))
+		if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
 		{
 			System.out.println("Alphabet");
 }
