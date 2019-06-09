@@ -8,7 +8,7 @@ int n,i;
 long factorial=1;
 Scanner sc=new Scanner(System.in);
 n=sc.nextInt();
-for(i=1;i<=num;++i)
+for(i=1;i<=n;++i)
 {
 factorial=factorial*i;
 }
