@@ -12,9 +12,13 @@ import java.io.*;
 		{
 			System.out.println("Even");
 		}
-		else 
+		else if(n%2==1)
 		{
 			System.out.println("Odd");
+		}
+		else
+		{
+			System.out.println("Invalid");
 		}
 		
 	}
