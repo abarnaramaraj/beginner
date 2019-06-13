@@ -1,6 +1,6 @@
-py=input()
-l=py.split('/')
-o=py.split('%')
+pi=input()
+l=pi.split('/')
+o=pi.split('%')
 for i in ax:
     if(i=='/'):
         print(int(l[0])//int(l[1]))
