@@ -5,12 +5,12 @@ public class COunt1
 {
 	public static void main (String[] args) 
 	{
-		int count=0,p;
+		int count=0,l;
 		Scanner sc=new Scanner(System.in);
-		p=sc.nextInt();
-		while(p!=0)
+		l=sc.nextInt();
+		while(l!=0)
 		{
-			p/=10;
+			l/=10;
 			++count;
 		}
 		System.out.println(count);
