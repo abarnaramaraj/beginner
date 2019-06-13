@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 
-public class Natural 
+public class Sum6 
 {
     public static void main(String args[])
     {
