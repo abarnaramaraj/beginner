@@ -1,16 +1,16 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-public class COunt
+public class COunt1
 {
 	public static void main (String[] args) 
 	{
-		int count=0,n;
+		int count=0,p;
 		Scanner sc=new Scanner(System.in);
-		n=sc.nextInt();
-		while(n!=0)
+		p=sc.nextInt();
+		while(p!=0)
 		{
-			n/=10;
+			p/=10;
 			++count;
 		}
 		System.out.println(count);
