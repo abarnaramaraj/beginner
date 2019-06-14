@@ -1,7 +1,3 @@
-kit=str(input())
-length=len(kit)
-str=set(kit)
-if(length==len(str)):
-    print("Yes")
-else:
-    print("No")
+b1=list(input())
+b1.sort()
+print(''.join(map(str,b1)))
